@@ -1,10 +1,16 @@
 Endpoints:
 POST   /users             Send user object(first_name, last_name, email, phone_number) in body with datatype application/json
+
 GET    /users             Returns all users
+
 GET    /users/:id         Returns user by Id
+
 PUT    /users/:id         Update user by Id. Send updated user object in body
+
 DELETE /users/:id         Delete user by id
+
 GET    /export            Exports all users in db and returns the path
+
 POST   /import            Given a Path in query params users will be imported in to db.
 
 How to Setup:
